@@ -8,7 +8,8 @@
     "start": "cd web && RUSTFLAGS=--cfg=web_sys_unstable_apis trunk serve",
     "start:backend": "cd urllb && cargo run",
     "fix": "RUSTFLAGS=--cfg=web_sys_unstable_apis cargo fix",
-    "format": "RUSTFLAGS=--cfg=web_sys_unstable_apis cargo fmt"
+    "format": "RUSTFLAGS=--cfg=web_sys_unstable_apis cargo fmt",
+    "build": "yarn build"
   },
   "repository": {
     "type": "git",
